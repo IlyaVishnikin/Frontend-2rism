@@ -5,11 +5,77 @@ html {
 	font-size: 14px;
 }
 
-body {
-	background-color: black;
+.main-container {
+	max-width: 1460px;
+	margin: 0 auto;
+	padding: 0 10px;
 }
 
-.main-container {
-	max-width: 1440px;
-	margin: 0 auto;
+// buttons begin
+.button {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+
+	background-color: #7B61FF;
+	border-radius: 12px;
+	color: white;
+
+	transition: background-color .5s ease-in-out,
+							color .5s ease-in-out;
+
+	&:hover {
+		background-color: #F6F4FF;
+		color: #5243C2;
+
+		.button__image {
+			filter: brightness(0) saturate(100%) invert(24%) sepia(32%) saturate(3886%) hue-rotate(232deg) brightness(101%) contrast(95%);
+		}
+	}
 }
+
+.button--large {
+	padding: 24px;
+
+	.button__text {
+		font-weight: 600;
+		font-size: 18px;
+	}
+}
+
+.button--semi {
+	padding: 18px;
+
+	.button__text {
+		font-weight: 600;
+		font-size: 18px;
+	}
+}
+// buttons end
+
+// form inputs begin
+.form-input {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 16px;
+	flex: 1;
+
+	&__right-side {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__header {
+		color: #5B5B5B;
+	}
+
+	&__placeholder {
+		color: #161414;
+		font-weight: 600;
+		font-size: 16px;
+
+		white-space: nowrap;
+	}
+}
+// form inputs end
