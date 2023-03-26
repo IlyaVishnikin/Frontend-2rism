@@ -1,6 +1,6 @@
 
 .section-hotels {
-  margin-bottom: 105px;
+  margin-bottom: 90px;
 
   &__top-side {
     display: flex;
@@ -19,8 +19,8 @@
     width: 100%;
 
     display: flex;
-    gap: 32px;
-    padding-bottom: 15px;
+    justify-content: space-between;
+    padding-bottom: 30px;
 
     overflow-y: hidden;
     overflow-x: scroll;
@@ -28,7 +28,6 @@
 
   &__hotel {
     position: relative;
-    min-width: 340px;
   }
 
   &__hotel-image {
