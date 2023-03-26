@@ -1,0 +1,58 @@
+
+.section-tips {
+  margin-bottom: 90px;
+
+  &__top-side {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 64px;
+  }
+
+  &__tips {
+    display: flex;
+    gap: 32px;
+
+    padding-bottom: 30px;
+
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  &__tip {
+    width: 672px;
+
+    display: flex;
+    gap: 32px;
+  }
+
+  &__tip-image {
+    border-radius: 24px;
+  }
+
+  &__tip-header {
+    margin-bottom: 16px;
+
+    font-size: 20px;
+  }
+
+  &__tip-text {
+    margin-bottom: 124px;
+
+    line-height: 32px;
+    color: #5B5B5B;
+    font-size: 16px;
+  }
+
+  &__tip-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #878787;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+}
