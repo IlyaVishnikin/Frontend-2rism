@@ -50,15 +50,17 @@
   }
 }
 
-@media (max-width: 1017px) {
+@media (max-width: 1209px) {
   .section-introduction__discover-us-wrapper {
     margin-bottom: 50px;
   }
 
   .search-form {
-    width: 300px;
+    width: 363px;
     align-items: stretch;
     flex-direction: column;
+
+    padding: 0;
 
     .button {
       display: inline-block;
