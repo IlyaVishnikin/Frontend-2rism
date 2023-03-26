@@ -1,0 +1,60 @@
+
+.section-hotels {
+  margin-bottom: 105px;
+
+  &__top-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 64px;
+  }
+
+  &__header {
+    color: #161414;
+    font-size: 32px;
+  }
+
+  &__hotels {
+    width: 100%;
+
+    display: flex;
+    gap: 32px;
+    padding-bottom: 15px;
+
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  &__hotel {
+    position: relative;
+    min-width: 340px;
+  }
+
+  &__hotel-image {
+    display: inline-block;
+    margin-bottom: 10px;
+
+    border-radius: 12px;
+  }
+
+  &__hotel-name {
+    margin-bottom: 12px;
+  }
+
+  &__hotel-location-wrapper {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  &__hotel-location {
+    color: #979797;
+  }
+
+  &__hotel-rating {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
