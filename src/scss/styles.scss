@@ -17,7 +17,24 @@ html {
 	padding: 0 10px;
 }
 
+.small-container {
+	max-width: 1164px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
 // buttons begin
+.button-link {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	padding: 10px;
+
+	color: #5243C2;
+	background-color: #F6F4FF;
+	border-radius: 12px;
+}
+
 .button {
 	display: inline-flex;
 	align-items: center;
@@ -57,6 +74,8 @@ html {
 		font-size: 18px;
 	}
 }
+
+
 // buttons end
 
 // form inputs begin
@@ -87,15 +106,4 @@ html {
 .section-header {
   color: #161414;
   font-size: 32px;
-}
-
-.view-all-button {
-	display: flex;
-	align-items: center;
-	gap: 4px;
-	padding: 10px;
-
-	color: #5243C2;
-	background-color: #F6F4FF;
-	border-radius: 12px;
 }
