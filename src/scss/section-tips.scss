@@ -20,7 +20,8 @@
   }
 
   &__tip {
-    width: 672px;
+    min-width: 672px;
+    height: 380px;
 
     display: flex;
     gap: 32px;
@@ -33,11 +34,13 @@
   &__tip-header {
     margin-bottom: 16px;
 
+    line-height: 30px;
     font-size: 20px;
   }
 
   &__tip-text {
     margin-bottom: 124px;
+    overflow: hidden;
 
     line-height: 32px;
     color: #5B5B5B;
