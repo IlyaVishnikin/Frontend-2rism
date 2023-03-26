@@ -15,12 +15,16 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  .navigation-list {
-    display: flex;
-    align-items: center;
-    gap: 54px;
+  .navigation {
+    width: 54%;
 
-    .navigation__link {
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;    
+    }
+
+    &__link {
       opacity: 0.7;
       color: white;
       text-transform: capitalize;
@@ -38,24 +42,24 @@ body {
     align-items: center;
     gap: 8px;
 
-    .user-profile__username {
+    &__username {
       line-height: 21px;
       text-align: right;
       text-transform: capitalize;
 
       color: white;
-      font-weight: 600;
-
-      .user-profile__greeting {
-        opacity: .7;
-      }
+      font-weight: 600;  
     }
 
-    .user-profile__avatar {
+    &__greeting {
+      opacity: .7;
+    }
+
+    &__avatar {
       border-radius: 50%;
     }
 
-    .user-profile__activity-status {
+    &__activity-status {
       position: absolute;
       top: 0;
       right: 0;
@@ -67,5 +71,4 @@ body {
       border-radius: 50%;
     }
   }
-
 }
