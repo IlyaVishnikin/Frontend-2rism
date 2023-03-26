@@ -77,3 +77,15 @@ html {
 	}
 }
 // form inputs end
+
+
+.view-all-button {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	padding: 10px;
+
+	color: #5243C2;
+	background-color: #F6F4FF;
+	border-radius: 12px;
+}
