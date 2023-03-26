@@ -1,0 +1,27 @@
+
+.section-activities {
+  margin-bottom: 90px;
+
+  &__top-side {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 64px;
+  }
+
+  &__activities {
+    display: flex;
+    gap: 32px;
+
+    padding-bottom: 30px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  &__activity-image {
+    display: inline-block;
+    margin-bottom: 16px;
+
+    border-radius: 12px;
+  }
+}
