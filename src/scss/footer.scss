@@ -6,9 +6,13 @@
   color: #5B5B5B;
   background-color: #F9F9F9;
 
+  .main-container {
+    padding: 0 35px;
+  }
+
   .footer__inner {  
     display: flex;
-    gap: 64px;
+    justify-content: space-between;
 
     padding-top: 120px;
   }
@@ -60,5 +64,4 @@
       color: white;
     }
   }
-
 }
